@@ -33,9 +33,12 @@ class A{
             System.out.println(d);
         }
     }
-    static class C {
-        {
-            Bclass.asd();
+    static class Cclass {
+        void innerMeth(){
+            System.out.println("static inner");
+        }
+        static void innerStatic(){
+            System.out.println("inner Static Method");
         }
     }
 }
@@ -44,5 +47,8 @@ public class InnerTest {
     public static void main(String[] args) {
         A a = new A();
         A.Bclass.asd();
+        //정적 innerClass 생성
+        A.Cclass c = new A.Cclass();
+        A.Cclass.innerStatic();
     }
 }
