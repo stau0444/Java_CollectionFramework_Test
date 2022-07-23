@@ -10,7 +10,14 @@
 >- HashSet  , TreeSet이 많이 사용되며 이중 TreeSet은 내부적으로
 > binary search tree로 구현되어 데이터를 꺼낼시 (inorder traversal을 통해) 정렬 되어 나온다. 
 >- 때문에 TreeSet을 사용하기 위해선 Comparable 혹은 Comparator 인터페이스를 구현해줘야 한다.
+>- Comparator는 파라미터를 두개 받아 비교하고 ,Comparable은 다음에 들어올 객체 하나만 자기자신인 this와 비교하는 차이점이 있다.
+>- 보통 Comparable을 더 많이 사용한다고 한다.
+>- Comparator로 구현시 아래의 예시처럼 TreeSet 생성시에 담으려는 객체를 생성자 파라미터로 넘겨줘야한다.
 
+#### Comparator로 구현된 객체 생성 예시
+```java
+TreeSet<Member> = new TreeSet<>(new Member());
+```
 ---
 #### Comparable 구현 예시
 ```java
