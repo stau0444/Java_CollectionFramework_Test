@@ -12,7 +12,7 @@
 >- 때문에 TreeSet을 사용하기 위해선 Comparable 혹은 Comparator 인터페이스를 구현해줘야 한다.
 
 ---
-####Comparable 구현 예시
+#### Comparable 구현 예시
 ```java
 public class Member implements Comparable{
     int id;
