@@ -15,6 +15,7 @@ public class TestMain {
         members.add(m1);
         members.add(m3);
         members.add(m2);
+        members.forEach(m-> System.out.println(m.id));
         System.out.println(members);
     }
 }
