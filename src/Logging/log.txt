@@ -1,0 +1,6 @@
+7월 27, 2022 4:29:50 오후 Logging.LoggerCustom warning
+WARNING: 이름을 적어주세요
+7월 27, 2022 4:55:52 오후 Logging.LoggerCustom warning
+WARNING: 이름이 너무 깁니다 이름은 7자이내로 만들어 주세요
+7월 27, 2022 5:39:27 오후 Logging.LoggerCustom warning
+WARNING: 이름이 너무 깁니다 이름은 7자이내로 만들어 주세요
